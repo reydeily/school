@@ -1,5 +1,7 @@
 h1 {
     color: chartreuse ;
+    border: 1rem groove black;
+    border-radius: 0.35rem;
 }
 h2{
     color: blue;
@@ -7,3 +9,9 @@ h2{
 h3{
     color: goldenrod;
 }
+
+h1#pag{
+    color: darkorange;
+    border: 0.8rem dotted blue;
+}
+
