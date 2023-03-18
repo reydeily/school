@@ -3,12 +3,25 @@ h1 {
     border: 1rem groove black;
     border-radius: 0.35rem;
 }
-h2{
+h2, h3, h4, h5, h6{
+    display: none;
+}
+body {
     color: blue;
 }
-h3{
-    color: goldenrod;
-}
+p.maiusculo{
+ text-align: justify;
+ text-indent: 4rem;
+ word-spacing: 0.1em;
+ line-height: 1.4em;
+ letter-spacing: 1px;   
+}    
+a.link{
+ color: #228b22;
+ text-decoration: none;   
+}    
+
+
 
 h1#pag{
     color: darkorange;
